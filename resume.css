@@ -174,10 +174,8 @@ body {
 }
 
 .tag_list li {
-    background: #e1e7f6;
+    
     color: #243b72;
-    padding: 6px 14px;
-    border-radius: 14px;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
 }
