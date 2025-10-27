@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+
+
+  <header>
+    <h1>CSS Selectors</h1>
+    <p>Look at <code>selectors.css</code> to see how I've implemented the selectors.</p>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2>Element Selector: <code>&lt;p&gt;</code></h2>
+      <p>Using an element selector selects all elements of a specific tag to be affected. In this case <code>&lt;p&gt;</code>.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+
+
+      <h2>Class Selector: <code>.highlight</code></h2>
+      <p>This sentence is <span class="highlight">highlighted because it has the .highlight class</span> applied to an inline <code>&lt;span&gt;</code>.</p>
+      <p class="highlight">This entire paragraph also has the <code>.highlight</code> class.</p>
+
+
+    <!-- ID selector-->
+
+      <h2>ID Selector: <code>#special</code></h2>
+      <p id="special">This paragraph has a unique ID so it can be styled exactly once. IDs let you change elements, unrelated to their class.</p>
+
+
+    <!-- pseudo-selectors -->
+
+      <h2>Pseudo-selectors</h2>
+      <ul class="pseudo-list">
+
+        <!-- Hover -->
+
+        <li><a href="#" aria-label="Example link that changes on hover">Hover over this link</a> to see what a <code>a:hover</code> does. It applies some CSS to the element when it's hovered over.</li>
+        
+        <!-- Pseudo -->
+        <li>These list items use <code>:nth-child(odd)</code> to stripe the background.</li>
+        <li>If you use tab to navigate to the link above, it will be in focus and thus affected by <code>a:focus</code>.</li>
+        <li>Odd items get a backgroudn tint, while even items stay the same.</li>
+      </ul>
+
+  </main>
+
+</body>
+</html>
